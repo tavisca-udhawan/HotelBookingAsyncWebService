@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Client</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial;
+        }
+
+        .header {
+            overflow: hidden;
+            background-color: #581845;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+            .header a {
+                float: left;
+                color: black;
+                text-align: center;
+                padding: 12px;
+                text-decoration: none;
+                font-size: 18px;
+                line-height: 25px;
+                border-radius: 4px;
+            }
+
+                .header a.logo {
+                    width: 150px;
+                    font-size: 25px;
+                    font-weight: bold;
+                }
+
+            .header a {
+                background-color: #ddd;
+                color: black;
+            }
+
+
+        .search-section {
+            padding-top: 2em;
+            padding-bottom: 2em;
+            top: 0;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: antiquewhite;
+        }
+
+            .search-section div {
+                margin-left: 1em;
+                margin-right: 1em;
+            }
+
+        .search-button {
+            font-size: 2em;
+            background-color: brown;
+            color: white;
+        }
+
+
+        .hotels, .rooms {
+            font-size: 1.5em;
+        }
+
+        .main {
+            display: flex;
+            flex-wrap: wrap;
+            display: block;
+        }
+
+        .container {
+            margin: 15em;
+        }
+
+        .hotel-list {
+            background-color: #FFFFFF;
+            padding: 1em 1em 1em;
+            border: none;
+            margin: 0 auto;
+            width: 75%;
+            height: 135px;
+            margin-top: 1.3em;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .image-holder {
+            height: 130px;
+        }
+
+        .hotel-image {
+            width: 214px;
+            height: 130px;
+        }
+
+        .hotel-name {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .description {
+            margin-left: 2em;
+            font-size: 1.0em;
+            width: 60%;
+        }
+
+        span {
+            font-size: 1em;
+            display: block;
+        }
+
+        .book span {
+            padding-left: 30px;
+            padding-top: 2px;
+        }
+
+        .book-button {
+            background-color: #ff6a00;
+            border: none;
+            float: right;
+            font-size: 30px;
+            color: white;
+            padding: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="#default" class="logo"><img src="Images/HotelShape4.png" class="Logo" style="height: 60px"></a>
+        <div class="search-section">
+            <div>
+                <button class="search-button" onclick="openPage('hotels', this)">
+                    Hotels
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="hotels" id="hotels">
+        </div>
+        <div class="rooms" id="rooms">
+        </div>
+    </div>
+  <script>
+        function openPage(pageName, elmnt) {
+                   GetAllHotels();
+        }
+
+    </script>
+
+</body>
+</html>
