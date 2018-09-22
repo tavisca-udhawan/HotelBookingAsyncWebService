@@ -1,0 +1,16 @@
+c:\users\udhawan\source\repos\HotelManagementServices\HotelManagementServices\bin\HotelManagementServices.dll.config
+c:\users\udhawan\source\repos\HotelManagementServices\HotelManagementServices\bin\HotelManagementServices.dll
+c:\users\udhawan\source\repos\HotelManagementServices\HotelManagementServices\bin\HotelManagementServices.pdb
+c:\users\udhawan\source\repos\HotelManagementServices\HotelManagementServices\obj\Debug\HotelManagementServices.csprojResolveAssemblyReference.cache
+c:\users\udhawan\source\repos\HotelManagementServices\HotelManagementServices\obj\Debug\HotelManagementServices.csproj.CoreCompileInputs.cache
+c:\users\udhawan\source\repos\HotelManagementServices\HotelManagementServices\obj\Debug\HotelManagementServices.dll
+c:\users\udhawan\source\repos\HotelManagementServices\HotelManagementServices\obj\Debug\HotelManagementServices.pdb
+c:\users\udhawan\source\repos\HotelManagementServices\HotelManagementServices\bin\Cassandra.dll
+c:\users\udhawan\source\repos\HotelManagementServices\HotelManagementServices\bin\LZ4.dll
+c:\users\udhawan\source\repos\HotelManagementServices\HotelManagementServices\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+c:\users\udhawan\source\repos\HotelManagementServices\HotelManagementServices\bin\Microsoft.Extensions.Logging.Abstractions.dll
+c:\users\udhawan\source\repos\HotelManagementServices\HotelManagementServices\bin\Microsoft.Extensions.Logging.dll
+c:\users\udhawan\source\repos\HotelManagementServices\HotelManagementServices\bin\Cassandra.xml
+c:\users\udhawan\source\repos\HotelManagementServices\HotelManagementServices\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+c:\users\udhawan\source\repos\HotelManagementServices\HotelManagementServices\bin\Microsoft.Extensions.Logging.xml
+c:\users\udhawan\source\repos\HotelManagementServices\HotelManagementServices\bin\Microsoft.Extensions.Logging.Abstractions.xml
